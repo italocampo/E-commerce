@@ -30,10 +30,8 @@
         <div class="header-button">
           <div class="header-button-left">
             <h2>Dê um novo estilo para seu trabalho!</h2>
-            <p>
-              Sucesso nem sempre tem haver com grandeza, mas sim com
-              consistência.
-            </p>
+            <h3>Tecnologia de ponta. É isso que nos define!</h3>
+            <br />
             <button>Ver agora &#8594;</button>
           </div>
           <div class="header-button-right">
@@ -42,190 +40,55 @@
         </div>
       </div>
     </header>
-    <!-- Conteúdo da Main -->
-    <main>
-      <div class="background-cinza">
-        <div class="conteudo-pagina">
-          <div class="colunas colunas-3">
-            <img src="img/product-1.png" alt="" />
-            <img src="img/product-2.png" alt="" />
-            <img src="img/product-3.png" alt="" />
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="conteudo-pagina">
-          <h3 class="section-title">Produtos Selecionados</h3>
-          <div class="subtitulo"></div>
-          <div class="colunas colunas-4">
-            <div class="produto">
-              <img src="img/product-4.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-5.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-6.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-7.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 350,00</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="conteudo-pagina">
-          <h3 class="section-title">Outros produtos</h3>
-          <div class="subtitulo"></div>
-          <div class="colunas colunas-4">
-            <div class="produto">
-              <img src="img/product-8.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-9.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-10.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-11.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 350,00</p>
-            </div>
+    <!-- Produtos -->
+    <main>
+      <div class="conteudo-pagina">
+        <h3 class="section-title">Produtos Selecionados</h3>
+        <div class="colunas colunas-4">
+          <div class="produto">
+            <img src="img/product-4.png" alt="" />
+            <p class="produtos-name">Combo Gamer</p>
+            <p class="preco-produto">R$ 3.000,00</p>
+            <button onclick="adicionarAoCarrinho('Combo Gamer', 3000)">
+              Adicionar ao Carrinho
+            </button>
           </div>
-        </div>
-        <div class="conteudo-pagina">
-          <div class="colunas colunas-4">
-            <div class="produto">
-              <img src="img/product-12.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-13.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-14.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 4,000.00</p>
-            </div>
-            <div class="produto">
-              <img src="img/product-15.png" alt="" />
-              <p class="produtos-name">Combo Gamer</p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-              <p class="preco-produto">R$ 350,00</p>
-            </div>
+          <div class="produto">
+            <img src="img/product-5.png" alt="" />
+            <p class="produtos-name">Placa de vídeo</p>
+            <p class="preco-produto">R$ 1.500,00</p>
+            <button onclick="adicionarAoCarrinho('Placa de vídeo', 1500)">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+          <div class="produto">
+            <img src="img/product-6.png" alt="" />
+            <p class="produtos-name">Console</p>
+            <p class="preco-produto">R$ 330,00</p>
+            <button onclick="adicionarAoCarrinho('Console', 330)">
+              Adicionar ao Carrinho
+            </button>
+          </div>
+          <div class="produto">
+            <img src="img/product-7.png" alt="" />
+            <p class="produtos-name">Cadeira Gamer</p>
+            <p class="preco-produto">R$ 599,90</p>
+            <button onclick="adicionarAoCarrinho('Cadeira Gamer', 599.90)">
+              Adicionar ao Carrinho
+            </button>
           </div>
         </div>
       </div>
-      <div class="background-cinza">
-        <header>
-          <div class="header-conteudo">
-            <div class="header-button exclusive-container">
-              <div class="header-button-left">
-                <h2>Smart Band 4</h2>
-                <p></p>
-                <button>Garanta já a sua &#8594;</button>
-              </div>
-              <div class="header-button-right">
-                <img src="img/exclusive.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </header>
-      </div>
-      <div>
-        <div class="conteudo-pagina">
-          <div class="feedbacks">
-            <div class="feedback">
-              <p>"</p>
-              <p>
-                "Finalmente encontramos uma empresa de tecnologia confiável, com
-                soluções seguras e de alta performance."
-              </p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-              <p>Marnei Buenas</p>
-            </div>
-          </div>
-          <div class="feedbacks">
-            <div class="feedback">
-              <p>"</p>
-              <p>
-                "O nível de personalização dos serviços foi o que mais nos
-                impressionou. Atenderam às nossas necessidades de forma
-                precisa."
-              </p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-              <p>Marcus Babalu</p>
-            </div>
-          </div>
-          <div class="feedbacks">
-            <div class="feedback">
-              <p>"</p>
-              <p>
-                "A solução oferecida por esta empresa transformou completamente
-                nosso negócio, melhorando a eficiência e segurança de nossos
-                sistemas."
-              </p>
-              <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-              <p>Anderson CL</p>
-            </div>
-          </div>
-        </div>
+
+      <!-- Carrinho -->
+      <div class="conteudo-pagina">
+        <h3 class="section-title">Carrinho</h3>
+        <ul id="carrinho"></ul>
+        <p>Total: R$ <span id="total">0.00</span></p>
       </div>
     </main>
-    <footer class="background-cinza">
-      <div class="conteudo-pagina conteudo-footer">
-        <div class="opcoes-dowload">
-          <p>Baixe nosso app para iOS</p>
-          <div>
-            <img src="img/app-store.png" alt="" />
-          </div>
-        </div>
-        <div class="logo-footer">
-          <h1 class="logo">RED<span>STORE</span></h1>
-        </div>
-        <div class="links-footer">
-          <h3>Saiba mais</h3>
-          <ul>
-            <li>Cupons</li>
-            <li>Blog</li>
-            <li>Políticas</li>
-            <li>Torne-se um membro</li>
-          </ul>
-        </div>
-      </div>
-      <hr class="conteudo-pagina" />
-      <div class="conteudo-pagina-copyright">
-        <p>Copyright 2024 - Ítalo Campos - Todos os Direitos Reservados.</p>
-      </div>
-    </footer>
+
     <script src="js/app.js"></script>
   </body>
 </html>
