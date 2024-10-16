@@ -236,8 +236,8 @@ main {
 }
 
 .rate {
-  color: yellow;
-  font-size: 1.3rem;
+  color: rgb(204, 207, 6);
+  font-size: 1.1rem;
 }
 
 .preco-produto {
@@ -339,6 +339,19 @@ main {
   .feedback {
     margin-bottom: 1.2rem;
   }
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: left;
+  padding: 1rem;
+}
+
+.conteudo-pagina button {
+  cursor: pointer;
+  border: solid 0 0 0 2px black;
 }
 
 /* Footer */
